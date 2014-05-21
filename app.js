@@ -46,7 +46,7 @@ if (app.get('env') === 'development') {
         });
     });
     // connect to db
-    mongoose.connect('mongodb://55.55.55.5/mongo');
+    //mongoose.connect('mongodb://55.55.55.5/mongo');
 }
 
 mongoose.model('users', {name: String});
